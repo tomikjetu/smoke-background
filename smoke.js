@@ -1,4 +1,3 @@
-addEventListener("load", () => {
   (window.hookBannerEffect = {}), (hookBannerEffect.isMobile = !1), (hookBannerEffect.pointer = null);
   var canvas = document.getElementById("smoke-background");
   (canvas.width = window.innerWidth), (canvas.height = window.innerHeight);
@@ -340,4 +339,3 @@ addEventListener("load", () => {
   var color = [Math.random() + 0.2, Math.random() + 0.2, Math.random() + 0.2];
   color = [0.91, 0.72, 0.23];
   (pointers[0].color = color), (hookBannerEffect.pointer = pointers[0]), (window.myPointer = window.innerWidth / 2);
-});
